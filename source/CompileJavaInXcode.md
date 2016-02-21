@@ -1,9 +1,9 @@
 # Compile Java In Xcode
-Recently I start to read Algorithm 4th which uses Java to express the thought of algorithm. However , I had not even write a `helloworld.java` file until I opened this book.
+Recently I started to read [Algorithm 4th](http://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/ref=sr_1_1?ie=UTF8) which  about Algorithms and their implementation in Java. However , I had not even write a `helloworld.java` file until I opened this book.
 
 I found some steps to compile java in Xcode and I make of note of these steps.
 
-1. Install java and make sure there are bin files named `java` and `javac` in your `/usr/bin/` ;
+1. Install Java and make sure there are bin files named `java` and `javac` in your `/usr/bin/` ;
 2. Open Xcode ;
 3. **New project - Other - External Build System**;
 4. Set the `build tool` to `/usr/bin/javac`;
